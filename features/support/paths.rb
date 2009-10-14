@@ -10,7 +10,9 @@ module NavigationHelpers
     
     when /the home\s?page/
       '/'
-    
+    when /the create new post page/
+      new_admin_post_path
+
     # Add more mappings here.
     # Here is a more fancy example:
     #

@@ -1,0 +1,11 @@
+%h1 Create a new post
+
+-form_for [:admin, @post] do |f|
+  =f.error_messages
+  =f.label :title
+  =f.text_field :title
+
+  =f.label :body
+  =f.text_area :body
+
+  =f.submit button_name
